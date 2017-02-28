@@ -22,9 +22,9 @@ function printPyramid(height) {
     // print that pyramid!
     var space = " ".repeat(height - 1);
     var hash = "#";
-    for (count = 0; count <= height - 1; count += 1){
+    for (count = 0; count < height; count += 1){
       console.log(space + hash);
 	    space = space.replace(" ", "");
       hash += "#";
-    } 
+    }
 }
