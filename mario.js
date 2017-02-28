@@ -12,6 +12,7 @@ printPyramid(5);
  *        ####
  *       #####
  *      ######
+ hi there
  */
 function printPyramid(height) {
     console.log("Uh oh... the pyramid is under construction.");
